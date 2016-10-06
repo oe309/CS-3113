@@ -112,6 +112,8 @@ int main(int argc, char *argv[])
 				p2y -= elapsed*3;
 			}
 		}
+		
+		//Left Paddle
 		modelMatrix.identity();
 		modelMatrix.Translate(0, p1y, 0);
 		program.setModelMatrix(modelMatrix);
@@ -122,7 +124,9 @@ int main(int argc, char *argv[])
 		glVertexAttribPointer(program.positionAttribute, 2, GL_FLOAT, false, 0, vertices);
 		glEnableVertexAttribArray(program.positionAttribute);
 		glDrawArrays(GL_TRIANGLES, 0, 6);
-
+		
+		
+		//Right Paddle 
 		modelMatrix.identity();
 		modelMatrix.Translate(0, p2y, 0);
 		program.setModelMatrix(modelMatrix);
@@ -131,6 +135,8 @@ int main(int argc, char *argv[])
 		glEnableVertexAttribArray(program.positionAttribute);
 		glDrawArrays(GL_TRIANGLES, 0, 6);
 		
+		
+		//Ball
 		ball_x += ball_vx*elapsed;
 		ball_y += ball_vy*elapsed;
 		modelMatrix.identity();
