@@ -86,28 +86,28 @@ int main(int argc, char *argv[])
 
 		if (keys[SDL_SCANCODE_W])
 		{
-			if (p1y + 0.5 < 2)
+			if (p1y + 0.6f < 2.0f)
 			{
 				p1y += elapsed*3;
 			}
 		}
 		if (keys[SDL_SCANCODE_S])
 		{
-			if (p1y - 0.5 > -2)
+			if (p1y - 0.6f > -2.0f)
 			{
 				p1y -= elapsed*3;
 			}
 		}
 		if (keys[SDL_SCANCODE_UP])
 		{
-			if (p2y + 0.5 < 2)
+			if (p2y + 0.6f < 2.0f)
 			{
 				p2y += elapsed*3;
 			}
 		}
 		if (keys[SDL_SCANCODE_DOWN])
 		{
-			if (p2y - 0.5 > -2)
+			if (p2y - 0.6f > -2.0f)
 			{
 				p2y -= elapsed*3;
 			}
@@ -143,24 +143,24 @@ int main(int argc, char *argv[])
 
 
 		//if ball hits top or bottom
-		if (ball_y + 0.1 >= 2 || ball_y - 0.1 <= -2)
+		if (ball_y + 0.1f > 2.0f || ball_y - 0.1f < -2.0f)
 		{
-			ball_vy *= -1;
+			ball_vy *= -1.0f;
 		}
 
 		//if ball collides with left paddle 
-		else if ((ball_x - 0.1 <= -3.3) && (ball_y - 0.1 <= p1y + 0.5) && (ball_y + 0.1 >= p1y - 0.5))
+		else if ((ball_x - 0.1f <= -3.3f) && (ball_y - 0.1f <= p1y + 0.5f) && (ball_y + 0.1f >= p1y - 0.5f))
 		{
-			ball_vx *= -1;
+			ball_vx *= -1.0f;
 		}
 
 		//if ball collides with right paddle 
-		else if ((ball_x + 0.1 >= 3.3) && (ball_y - 0.1 <= p2y + 0.5) && (ball_y + 0.1 >= p2y - 0.5)){
-			ball_vx *= -1;
+		else if ((ball_x + 0.1f >= 3.3f) && (ball_y - 0.1f <= p2y + 0.5f) && (ball_y + 0.1f >= p2y - 0.5f)){
+			ball_vx *= -1.0f;
 		}
 
 		//Player 1 Wins
-		else if (ball_x + 0.1 >= 3.55)
+		else if (ball_x + 0.1f >= 3.55f)
 		{
 			p1y = 0.0f;
 			p2y = 0.0f;
@@ -171,7 +171,7 @@ int main(int argc, char *argv[])
 		}
 
 		//Player 2 Wins
-		else if (ball_x - 0.1 <= -3.55)
+		else if (ball_x - 0.1f <= -3.55f)
 		{
 			p1y = 0.0f;
 			p2y = 0.0f;
