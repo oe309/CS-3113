@@ -149,7 +149,7 @@ int main(int argc, char *argv[])
 
 
 		//if ball hits top or bottom
-		if (ball_y + 0.1f > 2.0f || ball_y - 0.1f < -2.0f)
+		if (ball_y + 0.1f >= 2.0f || ball_y - 0.1f <= -2.0f)
 		{
 			ball_vy *= -1.0f;
 		}
