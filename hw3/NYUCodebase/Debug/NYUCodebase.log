@@ -1,0 +1,80 @@
+﻿Build started 10/19/2016 5:13:46 PM.
+     1>Project "C:\Users\Ovais\Documents\GitHub\CS3113-master\project_template\Windows\hw3\NYUCodebase\NYUCodebase.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\SDL2\include /IC:\SDL2_image\include /IC:\glew\include /IC:\SDL2_mixer\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _WINDOWS /D _MBCS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(7): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(8): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\sheetsprite.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(11): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\entity.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\entity.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(46): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(94): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(96): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(99): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(99): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(103): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(106): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(106): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(110): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(114): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(114): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(118): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(123): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(139): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(148): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(149): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(150): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(151): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(152): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(153): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(155): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(168): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(174): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(176): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(177): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(187): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(197): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(197): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(201): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(204): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(204): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(208): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(212): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(212): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(216): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(272): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(290): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(294): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(302): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(304): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(316): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(318): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(321): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(323): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(325): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(334): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(339): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(360): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(375): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(379): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(383): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(402): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(405): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(455): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(461): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\ovais\documents\github\cs3113-master\project_template\windows\hw3\nyucodebase\main.cpp(464): warning C4305: 'argument' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ovais\Documents\GitHub\CS3113-master\project_template\Windows\hw3\Debug\NYUCodebase.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\SDL2_mixer\lib\x86 /LIBPATH:C:\SDL2\lib\x86 /LIBPATH:C:\SDL2_image\lib\x86 /LIBPATH:C:\glew\lib\Release\Win32 SDL2.lib SDL2_mixer.lib glew32.lib SDL2main.lib SDL2_image.lib OpenGL32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ovais\Documents\GitHub\CS3113-master\project_template\Windows\hw3\Debug\NYUCodebase.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ovais\Documents\GitHub\CS3113-master\project_template\Windows\hw3\Debug\NYUCodebase.lib" /MACHINE:X86 Debug\Entity.obj
+         Debug\main.obj
+         Debug\Matrix.obj
+         Debug\ShaderProgram.obj
+         Debug\SheetSprite.obj
+         NYUCodebase.vcxproj -> C:\Users\Ovais\Documents\GitHub\CS3113-master\project_template\Windows\hw3\Debug\NYUCodebase.exe
+     1>Done Building Project "C:\Users\Ovais\Documents\GitHub\CS3113-master\project_template\Windows\hw3\NYUCodebase\NYUCodebase.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.53
