@@ -419,8 +419,7 @@ int main(int argc, char *argv[])
 			
 			}
 			coll = false;
-			coll2 = false;
-			coll3 = false;
+			
 
 			if (player.Dead || enemiesDead == enemies.size())
 			{
