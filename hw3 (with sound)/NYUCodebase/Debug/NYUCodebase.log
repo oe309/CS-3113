@@ -1,0 +1,77 @@
+﻿Build started 11/20/2016 2:29:59 PM.
+     1>Project "C:\Users\Imran\Documents\GitHub\cs-3113\hw3\NYUCodebase\NYUCodebase.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\SDL2\include /IC:\SDL2_image\include /IC:\glew\include /IC:\SDL2_mixer\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _WINDOWS /D _MBCS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(7): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(8): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\sheetsprite.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(11): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\entity.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\entity.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(47): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(95): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(97): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(100): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(100): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(104): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(107): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(107): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(111): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(115): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(115): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(119): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(124): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(140): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(149): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(150): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(151): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(152): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(153): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(154): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(156): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(169): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(175): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(177): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(186): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(196): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(196): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(200): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(203): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(203): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(207): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(211): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(211): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(215): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(282): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(301): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(305): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(313): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(315): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(327): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(329): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(332): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(334): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(336): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(345): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(350): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(373): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(388): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(411): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(414): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(462): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(468): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\cs-3113\hw3\nyucodebase\main.cpp(471): warning C4305: 'argument' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Imran\Documents\GitHub\cs-3113\hw3\Debug\NYUCodebase.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\SDL2_mixer\lib\x86 /LIBPATH:C:\SDL2\lib\x86 /LIBPATH:C:\SDL2_image\lib\x86 /LIBPATH:C:\glew\lib\Release\Win32 SDL2.lib SDL2_mixer.lib glew32.lib SDL2main.lib SDL2_image.lib OpenGL32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Imran\Documents\GitHub\cs-3113\hw3\Debug\NYUCodebase.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Imran\Documents\GitHub\cs-3113\hw3\Debug\NYUCodebase.lib" /MACHINE:X86 Debug\Entity.obj
+         Debug\main.obj
+         Debug\Matrix.obj
+         Debug\ShaderProgram.obj
+         Debug\SheetSprite.obj
+         NYUCodebase.vcxproj -> C:\Users\Imran\Documents\GitHub\cs-3113\hw3\Debug\NYUCodebase.exe
+     1>Done Building Project "C:\Users\Imran\Documents\GitHub\cs-3113\hw3\NYUCodebase\NYUCodebase.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.59
